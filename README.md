@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# Product Management
 
-First, run the development server:
+</div>
+
+**Product Management** Este projeto foi desenvolvido como parte de um teste técnico para demonstrar habilidades em desenvolvimento.
+
+## 🌟 Demonstração
+
+Acesse a aplicação online: [Product Management](https://product-management-alpha-three.vercel.app/)
+
+## Tecnologias Utilizadas
+
+- **Next.js**: Framework React para renderização no lado do servidor e otimização.
+- **CSS Modules**: Para estilização modular e escopada de componentes.
+- **Vercel**: Hospedagem da aplicação.
+
+## Funcionalidades
+
+### Cadastro:
+
+- **Formulário com os campos abaixo:**
+
+**Nome do produto: campo de texto**
+
+**Descrição do produto: campo de texto**
+
+**Valor do produto: campo de valor**
+
+**Disponível para venda: campo com 2 opções: sim / não**
+
+### Listagem:
+
+- **Colunas da listagem: nome e valor.**
+
+**Ao cadastrar um novo produto, a listagem é exibida automaticamente.**
+
+**Botão para cadastrar um novo produto a partir da listagem.**
+
+## Instalação e Execução Local
+
+### Pré-requisitos
+
+- **Node.js** versão 16 ou superior.
+- **npm** ou **yarn** para gerenciar pacotes.
+
+### Passos para rodar localmente
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/KaliniV/PRODUCT-MANAGEMENT-.git
+
+   ```
+
+2. Instale as dependências:
+
+   ```bash
+    npm install
+   ```
+
+3. Inicie o servidor de desenvolvimento:
+
+   ```bash
+    npm run dev ou yarn dev
+   ```
+
+4. O servidor estará rodando em: `http://localhost:3000`.
+
+---
+
+## Estrutura do Projeto
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+     src/
+     ├── components/     # Componentes reutilizáveis
+     ├── pages/          # Páginas da aplicação
+     ├── styles/         # Estilos com CSS Modules
+     └── utils/          # Funções utilitárias (se aplicável)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contribuição
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Se você deseja contribuir com o projeto, por favor, siga as etapas abaixo:
 
-## Learn More
+1.  Fork este repositório.
+2.  Crie uma branch com a nova feature ou correção de bug (`git checkout -b feature/nome-da-feature`).
+3.  Faça commit das alterações (`git commit -m 'Adiciona nova feature'`).
+4.  Envie as alterações (`git push origin feature/nome-da-feature`).
+5.  Abra um pull request.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
