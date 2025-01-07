@@ -1,0 +1,8 @@
+.container {
+  display: grid;
+  place-items: center;
+  margin-inline: auto;
+  max-width: 76rem;
+  gap: 2rem;
+  padding-block: 2rem;
+}

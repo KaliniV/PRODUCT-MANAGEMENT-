@@ -1,0 +1,15 @@
+.product_form {
+  display: grid;
+  place-items: initial;
+  margin-inline: auto;
+  max-width: 76rem;
+  gap: 2rem;
+  padding-block: 2rem;
+}
+
+.form_item {
+  color: var(--color-font-2);
+  font-weight: 400;
+  display: grid;
+  grid-template-columns: 1fr;
+}

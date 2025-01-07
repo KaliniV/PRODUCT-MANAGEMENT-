@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  place-items: center;
+  margin-inline: auto;
+  max-width: 76rem;
+  gap: 2rem;
+  padding-block: 2rem;
+}
+.title {
+  font-size: var(--font-size-2);
+  text-align: center;
+}

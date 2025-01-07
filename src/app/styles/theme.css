@@ -1,0 +1,12 @@
+:root {
+  --color-details: #002828;
+
+  --color-font: #ffffff;
+  --color-font-1: #8a8a8b;
+  --color-font-2: #000000;
+
+  --font-size-1: 2.81rem;
+  --font-size-2: 2rem;
+
+  --bd-radius-xs: 0.2rem;
+}
