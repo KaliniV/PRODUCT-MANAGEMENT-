@@ -70,18 +70,6 @@ Acesse a aplicação online: [Product Management](https://product-management-alp
 
 ---
 
-## Estrutura do Projeto
-
-```bash
-     src/
-     ├── components/     # Componentes reutilizáveis
-     ├── pages/          # Páginas da aplicação
-     ├── styles/         # Estilos com CSS Modules
-     └── utils/          # Funções utilitárias (se aplicável)
-```
-
----
-
 ## Contribuição
 
 Se você deseja contribuir com o projeto, por favor, siga as etapas abaixo:
